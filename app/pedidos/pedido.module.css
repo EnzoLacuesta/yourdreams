@@ -1,0 +1,141 @@
+.presentContact{
+    background-color: rgb(247, 230, 229);
+    height: 24vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form{
+    height: 18vh;
+    border-bottom: solid 1px rgb(213, 211, 211);
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.presentOferta{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.ofertaAbajo{
+    padding-top: 1em;
+}
+.pasteles{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.cajaPedidos{
+    height: 22vh;
+    width: 90%;
+    border: solid 1px rgb(184, 184, 184);
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.cajaPedidos:hover{
+    border: solid 1px black;
+    background-color: rgb(243, 243, 243);
+}
+.imgPedidos{
+    width: 11rem;
+    height: 11.2rem;
+}
+.cajaPedidos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 1rem;
+}
+.divPedidosNombre{
+    margin-top: 3rem;
+}
+.CajaPrecios{
+    display: grid;
+    align-items: center;
+    text-decoration: none;
+}
+.Font{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: black;
+    font-weight: 550;
+}
+.font{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: black;
+    
+}
+.divImgPedidos{
+    display: grid;
+    justify-content: end;
+}
+.celebraciones{
+    height: 13vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.2rem;
+    color: rgb(112, 112, 112);
+}
+.celebracionesH1{
+    color: black;
+    font-size:1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.recoger{
+    padding-top: 0.5rem;
+    padding-left: 0.3rem;
+    margin: 1rem;
+    margin-right: 50%;
+    border: solid 1px black;
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:medium ;
+}
+.font{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+.oferta{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.oferta2{
+    display: grid;
+    grid-template-columns:30% 70%;
+}
+.boda{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    margin: 1rem;
+    border-left: solid rgb(224, 224, 224) 1px;
+}
+.carrito{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2rem;
+}
+.ofertaPasteles{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 90% 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+    word-spacing:-4px;
+    padding-left: 1rem;
+}
