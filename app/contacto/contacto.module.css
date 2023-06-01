@@ -1,0 +1,71 @@
+.presentContact{
+    background-color: rgb(247, 230, 229);    height: 24vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    height: 60vh;
+    margin-left: 25% ;
+    margin-right: 25%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+.strongForm{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-left: 25% ;
+    margin-right: 20%;
+    font-size: 1.1rem;
+}
+.formInput{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.contactoP{
+    color:rgb(68, 68, 68) ;
+    font-size: 1.1rem;
+}
+.textInp{
+    display: flex;
+    justify-content: space-between;
+}
+.textInp > input{
+    width: 17rem;
+    height: 3rem;
+    font-size: 1rem;
+    border: none;
+    color: rgb(222, 222, 222);
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+.textarea{
+    border: none;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.formInputInfo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.formInputInfo > div{
+    text-align: center;
+}
+.btnContacto{
+    font-size: 1rem;
+    margin-top: 1rem;
+    background-color: white;
+    border: none;
+    color: rgb(122, 122, 122);
+}
+.btnContacto:hover{
+    color: rgb(179, 179, 179);
+}

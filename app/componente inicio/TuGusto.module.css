@@ -1,0 +1,89 @@
+.tugusto{
+    margin-top: 1em;
+    background-color: rgb(241, 242, 244);
+    height: 7rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.DobleImg{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;  
+}
+.imgDoble{
+    height: 50vh;
+    width: 100%;    
+}
+.imgDobleIzquierda{   
+    height: 50vh;
+    width: 100%;
+    
+}
+.h1Follow{
+    text-align: center;
+}
+.FollowMe{
+    height:40vh;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 100;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.divFollow{
+  display: grid;
+  justify-content: center;
+  align-items: center; 
+  grid-template-columns: repeat(8, 1fr);  
+}
+.ochoFotos {
+    height: 19vh;
+    width: 18.5vh; 
+    margin: 0.3rem;
+}
+.footer{
+    padding-top: 5em;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    height: 30vh;
+
+}
+.h1footer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1em;
+   
+}
+.inputFooter{
+    margin-top: 0.5rem;
+    padding: 0.5rem 9rem 0.5rem 0.5rem;
+    font-size: 1rem;
+}
+.btnFooter{
+    margin-top: 0.5rem;
+    padding: 0.5rem 6rem 0.5rem 6rem;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+}
+
+.divFooter{
+    background-color: rgb(241, 230, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    height: 4rem;
+}
+.divFooterBig{
+    display: grid;
+    align-items: end;
+}

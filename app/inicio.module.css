@@ -1,0 +1,60 @@
+.contenedor{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.marco{
+    padding-top: 10vh; 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+.titulo{
+    height: 10vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.tresImg{
+    height: 80vh;
+    width: 70rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content:center; 
+}
+.tresImg>div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width: 26rem;
+    height: 42rem;
+}
+.imgcentro {
+    background-color: rgb(250, 232, 232);
+    width: 26rem;
+    height: 42rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    font-size: 2.7rem;
+    display: grid;
+    font-weight: 400;
+}
+.btnCentro{
+    padding: 1em;
+    border-radius: 3%;
+     background-color: white;
+     border: solid 1px rgb(250, 232, 232);
+     font-size: 1rem;
+     font-weight: 700;
+}
+.p{
+    padding-left:20px;
+}
+
