@@ -11,7 +11,7 @@ const Inicio = () => {
             <div className={style.contenedor}>
               <div className={style.marco}>
                 <div className={style.titulo}>
-                  Los pasteles de Ale
+                  LOS PASTELES DE ALE
                 </div>
                 <div className={style.tresImg}>
                   <div>

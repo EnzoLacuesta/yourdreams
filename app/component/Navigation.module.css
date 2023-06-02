@@ -44,3 +44,18 @@
     align-items: self-start;
     padding-left: 2em;
 }
+.iniciarSesion{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);   
+}
+.iniciarSesion1{
+    display: grid;
+    align-items: center;
+    justify-content: end;
+    padding-right: 0.5rem;
+}
+.iniciarSesion2{
+    display: grid;
+    align-items: center;
+    justify-content: start;
+}

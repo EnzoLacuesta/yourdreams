@@ -21,11 +21,14 @@ export default function Navigation (){
 return(
       
         <nav className={style.Navigation}>
-            <div className={style.icono}>
+            <div className={style.iniciarSesion}>
+              <div className={style.iniciarSesion1}>
                 <ion-icon 
+                  style={{"font-size": "1.5rem"}}
                   name="person-circle-outline">
-                </ion-icon> 
-                Iniciar sesion
+                </ion-icon>            
+              </div> 
+                <div className={style.iniciarSesion2}>Iniciar sesion</div>
             </div>
             <div>
                  <ul className={style.ul}>
@@ -42,9 +45,9 @@ return(
             </div>
             
             <div className={style.logosNav}>
-              <ion-icon className={style.icono} name="logo-facebook"></ion-icon>
-              <ion-icon className={style.icono} name="logo-instagram"></ion-icon>
-              <ion-icon className={style.icono} name="mail-outline"></ion-icon>
+              <ion-icon style={{"font-size": "1.5rem"}} name="logo-facebook"></ion-icon>
+              <ion-icon style={{"font-size": "1.5rem"}} name="logo-instagram"></ion-icon>
+              <ion-icon style={{"font-size": "1.5rem"}} name="mail-outline"></ion-icon>
             </div>
        
         </nav>
