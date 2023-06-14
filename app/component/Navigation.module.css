@@ -37,10 +37,31 @@
     grid-template-columns: repeat(3,1fr);
     column-gap: 0.5em;
 }
+.logosNav > a{
+    color: black;
+}
 .icono{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1rem;
     display: flex;
     align-items: self-start;
     padding-left: 2em;
+}
+.iniciarSesion{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);   
+}
+.iniciarSesion1 > a{
+    color: black;
+}
+.iniciarSesion1{
+    display: grid;
+    align-items: center;
+    justify-content: end;
+    padding-right: 0.5rem;
+}
+.iniciarSesion2{
+    display: grid;
+    align-items: center;
+    justify-content: start;
 }

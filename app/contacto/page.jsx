@@ -55,7 +55,6 @@ export default function Contacto (){
                     </div>
                  
                 </div>
-                <Footer></Footer>
             </div>)
 
 }

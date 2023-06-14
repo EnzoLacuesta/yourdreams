@@ -16,7 +16,6 @@ export default function Pedidos (){
                 <Pasteles></Pasteles>
                 <Celebraciones></Celebraciones>
                 <Pasteles></Pasteles>
-                <Footer></Footer>
         </div>
     )
 }
