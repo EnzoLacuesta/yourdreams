@@ -1,5 +1,6 @@
-import Footer from '../componente inicio/Footer'
+'use client'
 import style from './contacto.module.css'
+import ValidarFormulario from '../Validaciones/ValidacionesForm'
 
 export default function Contacto (){
     return (
@@ -33,10 +34,14 @@ export default function Contacto (){
                     <div className={style.formInput}>
                         <div className={style.textInp} >
                             <input 
+                                id='name-contacto'
+                                name='NameContacto'
                                 type="text" 
                                 placeholder='Nombre' />
                             <input 
-                                type="text" 
+                                id='email-contacto'
+                                name='EmailContacto'
+                                type="email" 
                                 placeholder='Email'/> 
                         </div>
                         <div className={style.formInput}>
@@ -50,7 +55,11 @@ export default function Contacto (){
                                 ></textarea>
                         </div>
                         <div className={style.formInput}>
-                            <button className={style.btnContacto} >Enviar</button>
+                            <button 
+                                onClick={ValidarFormulario}
+                                className={style.btnContacto} 
+                                >Enviar
+                            </button>
                         </div>
                     </div>
                  

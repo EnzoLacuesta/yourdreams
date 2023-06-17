@@ -101,6 +101,13 @@
     color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size:medium ;
+    background-color: white;
+}
+.recoger:hover{
+    background-color: rgb(231, 230, 230);
+}
+.recoger:active{
+    border: solid black 2px;
 }
 .font{
     font-family: 'Courier New', Courier, monospace;

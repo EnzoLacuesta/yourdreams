@@ -1,16 +1,18 @@
+'use client'
 import React from 'react'
 import style from './pedido.module.css'
-import Link from 'next/link'
+
+const PedidoRealizado = () =>{alert("Preparando pedido")}
 
 const Form = () => {
   return (
             <form action="" className={style.form}>
-                    <Link 
-                        href={'/'}
+                    <button 
+                        onClick={PedidoRealizado}
                         className={style.recoger}>
                             Recoger en persona,Lo antes posible
                             (dentro de 15 minutos)
-                    </Link> 
+                    </button> 
                     
                     <div className={style.oferta}>
                             <div className={style.oferta2}>
