@@ -28,7 +28,10 @@
     display: grid;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     color: black;
+=======
+>>>>>>> 2eccf7e5921c22177fea17798a0e777709cd719a
 }
 .contactoP{
     color:rgb(68, 68, 68) ;
@@ -43,7 +46,11 @@
     height: 3rem;
     font-size: 1rem;
     border: none;
+<<<<<<< HEAD
     color: rgb(0, 0, 0);
+=======
+    color: rgb(222, 222, 222);
+>>>>>>> 2eccf7e5921c22177fea17798a0e777709cd719a
     border-bottom: 1px solid rgb(179, 179, 179);
 }
 .textarea{
