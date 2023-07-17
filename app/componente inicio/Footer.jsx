@@ -1,10 +1,6 @@
 'use client'
 import React from 'react'
 import style from './TuGusto.module.css'
-<<<<<<< HEAD
-import ValidarEmail from '../Validaciones/Validaciones'
-=======
-
 
 const ValidarEmail = ()=>{
   let emailField = document.getElementById('user-email');
@@ -17,7 +13,7 @@ const ValidarEmail = ()=>{
     return false;
   }
 }
->>>>>>> 2eccf7e5921c22177fea17798a0e777709cd719a
+
 
 const Footer = () => {
   return (

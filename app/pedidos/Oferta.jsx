@@ -2,6 +2,8 @@ import React from 'react'
 import style from './pedido.module.css'
 
 const Oferta = () => {
+
+    
   return (
              <div className={style.presentOferta}>
                     <div>
@@ -10,7 +12,6 @@ const Oferta = () => {
                     </div>
                     <div className={style.ofertaAbajo}>
                         <h3>Pasteles de Boda</h3>    
-                        <div className={style.font}>Esta es una sección de tu menú. Puedes personalízarla a tu gusto.</div>    
                     </div>
                 </div>
   )

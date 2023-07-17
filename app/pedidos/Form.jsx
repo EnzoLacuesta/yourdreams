@@ -1,34 +1,19 @@
-<<<<<<< HEAD
 'use client'
 import React from 'react'
 import style from './pedido.module.css'
+import Link from 'next/link'
 
 const PedidoRealizado = () =>{alert("Preparando pedido")}
-=======
-import React from 'react'
-import style from './pedido.module.css'
-import Link from 'next/link'
->>>>>>> 2eccf7e5921c22177fea17798a0e777709cd719a
 
 const Form = () => {
   return (
             <form action="" className={style.form}>
-<<<<<<< HEAD
-                    <button 
-                        onClick={PedidoRealizado}
-                        className={style.recoger}>
-                            Recoger en persona,Lo antes posible
-                            (dentro de 15 minutos)
-                    </button> 
-=======
                     <Link 
                         href={'/'}
                         className={style.recoger}>
                             Recoger en persona,Lo antes posible
                             (dentro de 15 minutos)
-                    </Link> 
->>>>>>> 2eccf7e5921c22177fea17798a0e777709cd719a
-                    
+                    </Link>                     
                     <div className={style.oferta}>
                             <div className={style.oferta2}>
                                 <div className={style.ofertaPasteles}>

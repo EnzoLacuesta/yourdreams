@@ -1,5 +1,3 @@
-import Footer from '../componente inicio/Footer'
-import Celebraciones from './Celebraciones'
 import Form from './Form'
 import Oferta from './Oferta'
 import Pasteles from './Pasteles'
@@ -14,8 +12,7 @@ export default function Pedidos (){
                 <Form></Form>         
                 <Oferta></Oferta>
                 <Pasteles></Pasteles>
-                <Celebraciones></Celebraciones>
-                <Pasteles></Pasteles>
+
         </div>
     )
 }
