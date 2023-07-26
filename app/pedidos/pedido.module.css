@@ -9,7 +9,31 @@
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.fijo{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    border:rgb(7, 7, 7) 2.5px solid ;
+    text-align: center;
+    border-radius: 15%;
+    color: rgb(8, 7, 7);
+}
+.comprasMuestra{
+    width: 6rem;
+    position: fixed;
+    top:40%;
+    margin-left: 92%;
+}
+.tituloCompras{
+    border-bottom: solid black 1px;
+}
+.fondoCompras{
+    background-color: rgb(242, 219, 219);
+    height: 3rem;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .form{
     height: 18vh;
     border-bottom: solid 1px rgb(213, 211, 211);
@@ -36,33 +60,57 @@
     margin-right: 5%;
 }
 .cajaPedidos{
+    font-size: 1.3rem;
     height: 22vh;
     width: 90%;
     border: solid 1px rgb(184, 184, 184);
     margin-top: 1rem;
     text-decoration: none;
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.num{
+    text-align: center;
+    background-color: rgb(237, 204, 204);
+    margin:2% 30% 8% 30%;
+    font-size: 1.5rem;
 }
 .cajaPedidos:hover{
     border: solid 1px black;
     background-color: rgb(243, 243, 243);
 }
+.cakeAtr{
+    display: grid;
+    grid-template-rows: repeat(3,1fr );
+}
+.btnPedidos{
+    width: 5rem;
+    height: 2rem;
+    background-color: rgb(247, 230, 229);
+    font-size: 1.5rem;
+}
+.btnPedidos2{
+    width: 5rem;
+    height: 2rem;
+    background-color: rgb(247, 230, 229);
+    font-size: 0.8rem;
+}
+.dosBtn{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0.5rem;
+}
+
 .imgPedidos{
     width: 11rem;
     height: 11.2rem;
 }
-.cajaPedidos{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-left: 1rem;
-}
 .divPedidosNombre{
     margin-top: 3rem;
 }
-.CajaPrecios{
-    display: grid;
-    align-items: center;
-    text-decoration: none;
-}
+
 .Font{
     font-family: 'Courier New', Courier, monospace;
     font-size: large;

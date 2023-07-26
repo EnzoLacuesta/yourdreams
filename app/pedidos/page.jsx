@@ -1,6 +1,7 @@
+'use client'
 import Form from './Form'
 import Oferta from './Oferta'
-import Pasteles from './Pasteles'
+import ListCake from './cake/ListCake'
 import style from './pedido.module.css'
 
 export default function Pedidos (){
@@ -11,8 +12,7 @@ export default function Pedidos (){
                 </div>
                 <Form></Form>         
                 <Oferta></Oferta>
-                <Pasteles></Pasteles>
-
+                <ListCake></ListCake>
         </div>
     )
 }
